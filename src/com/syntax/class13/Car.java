@@ -32,6 +32,7 @@ public class Car {
 		car1.modle = "Q5";
 		car1.color = "black";
 		car1.year = 2020;
+		//we can add as many cars just we have to access it using "new Car"
 		// second behaviors
 		car1.drive();
 		car1.speed();

@@ -8,7 +8,7 @@ public class ClassTaskStringM {
 		char rev;
 		for (int i=day.length()-1; i>=0; i--){
 			rev=day.charAt(i);
-			System.out.print(rev);
+			System.out.print(rev+" ");
 		}
 	
 		
