@@ -2,13 +2,15 @@ package com.syntax.class16;
 
 public class StaticKeyword {
 	//create a template for a Phone
+	//instance variable
 		String color;
 		int memory;
-		
+		//this is called static variable which is similer with instance variable but we ust the key work static
 		static String brand;
 		static boolean touchScreen;
 		
 		//return type, name, parameters
+		//this is called static method 
 		static void displayGeneralInfo() {
 			System.out.println("We are building "+brand+" with touch screen="+touchScreen);
 		}
